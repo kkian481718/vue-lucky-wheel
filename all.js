@@ -69,11 +69,11 @@
         let vm = this
         vm.$refs.item[vm.index].classList.value = vm.itemClass
         if (vm.current_year === 2017) {
-          vm.time_remaining = 20
+          vm.time_remaining = 999
           vm.reset()
           vm.initPrize()
         } else if (vm.current_year === 2018) {
-          vm.time_remaining = 120
+          vm.time_remaining = 0
           vm.reset()
           vm.initPrize_2018()
         }

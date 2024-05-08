@@ -1,18 +1,18 @@
 [
   {
-    "name": "Wish",
+    "name": "花蓮木瓜牛奶",
     "icon": "cake",
-    "count": 5
+    "count": 1
   },
   {
     "name": "Anything",
     "icon": "stars",
-    "count": 5
+    "count": 1
   },
   {
     "name": "Child",
     "icon": "child_care",
-    "count": 4
+    "count": 1
   },
   {
     "name": "Flight",
@@ -22,11 +22,11 @@
   {
     "name": "Wifi",
     "icon": "wifi",
-    "count": 5
+    "count": 1
   },
   {
     "name": "Movie",
     "icon": "movie_filter",
-    "count": 0
+    "count": 1
   }
 ]
