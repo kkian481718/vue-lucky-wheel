@@ -16,7 +16,7 @@
       index: 0,
       current_year: 2017,
       duration: 3000,
-      time_remaining: 5,
+      time_remaining: 6,
       num: 0,
       numbers: [],//紀錄還有獎品的編號
       isToggle: false,//顯示隱藏按鈕
@@ -69,7 +69,7 @@
         let vm = this
         vm.$refs.item[vm.index].classList.value = vm.itemClass
         if (vm.current_year === 2017) {
-          vm.time_remaining = 5
+          vm.time_remaining = 6
           vm.reset()
           vm.initPrize()
         } else if (vm.current_year === 2018) {
