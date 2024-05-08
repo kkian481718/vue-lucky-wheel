@@ -69,7 +69,7 @@
         let vm = this
         vm.$refs.item[vm.index].classList.value = vm.itemClass
         if (vm.current_year === 2017) {
-          vm.time_remaining = 999
+          vm.time_remaining = 5
           vm.reset()
           vm.initPrize()
         } else if (vm.current_year === 2018) {
@@ -108,6 +108,7 @@
           });
       },
       initPrize_2018() {
+        /*
         let vm = this
         vm.prizes_2018 = []
         for (let i = 1; i <= 120; i++) {
@@ -142,6 +143,7 @@
         vm.prizes = vm.prizes_2018
         vm.degree(vm.num)
         vm.numberArray()
+        */
       },
       degree(num) {
         // 計算每個轉盤角度
