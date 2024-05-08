@@ -16,7 +16,7 @@
       index: 0,
       current_year: 2017,
       duration: 3000,
-      time_remaining: 20,
+      time_remaining: 5,
       num: 0,
       numbers: [],//紀錄還有獎品的編號
       isToggle: false,//顯示隱藏按鈕
