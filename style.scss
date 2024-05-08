@@ -1,7 +1,12 @@
-$primary-color: #343baa;
-$primary-color-dark: #1f1172;
-$secondary-color: #f0beff;
-$access-color: #ff00ba;
+//$primary-color: #343baa;
+//$primary-color-dark: #1f1172;
+//$secondary-color: #f0beff;
+//$access-color: #ff00ba;
+
+$primary-color: #d4c5e2;
+$primary-color-dark: #7f1146;
+$secondary-color: #5c9ead;
+$access-color: #326273;
 $duration: 3s;
 
 *,
@@ -255,7 +260,7 @@ $num: 20;
   width: 100px;
   align-items: center;
   flex-direction: column;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   transform-origin: center center;
   // 16輪盤
@@ -360,7 +365,7 @@ $num: 20;
     justify-content: center;
     width: 25%;
     height: 157px;
-    font-size: 12px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
     padding-left: 11%;
@@ -370,11 +375,11 @@ $num: 20;
   .prize-title:nth-child(2) {
     width: 26%;
     padding-left: 0px;
-    font-size: 12px;
+    font-size: 30px;
   }
 
   .prize-item {
-    font-size: 12px;
+    font-size: 30px;
     color: $access-color;
     text-decoration: underline;
   }
