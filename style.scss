@@ -29,7 +29,7 @@ $duration: 3s;
   overflow: hidden;
   font-family: "Roboto Condensed", sans-serif;
   position: relative;
-  background-color: #5858b9;
+  background-color: #d4c5e2;
   user-select: none;
 }
 
@@ -451,7 +451,6 @@ $num: 20;
   }
 }
 
-/*
 @for $i from 1 through 9 {
   $size: random(100) + 100;
 
@@ -472,7 +471,6 @@ $num: 20;
     }
   }
 }
-*/
 
 .slide-fade-enter-active {
   transition: all 1s ease;
