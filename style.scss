@@ -144,9 +144,9 @@ button:focus {
 
 .lucky-wheel {
   display: flex;
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
+  width: 550px;
+  height: 550px;
+  border-radius: 550px;
   justify-content: center;
   align-items: center;
   z-index: 3;
@@ -278,7 +278,7 @@ $num: 20;
     top: 112px;
     font-size: 1.2rem;
     text-align: center;
-    width: 45px;
+    width: 30px;
     line-height: 25px;
     border-radius: 30px;
     display: block;
@@ -370,11 +370,11 @@ $num: 20;
   .prize-title:nth-child(2) {
     width: 26%;
     padding-left: 0px;
-    font-size: 32px;
+    font-size: 12px;
   }
 
   .prize-item {
-    font-size: 72px;
+    font-size: 12px;
     color: $access-color;
     text-decoration: underline;
   }
