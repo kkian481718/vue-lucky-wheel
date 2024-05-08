@@ -451,6 +451,7 @@ $num: 20;
   }
 }
 
+/*
 @for $i from 1 through 9 {
   $size: random(100) + 100;
 
@@ -471,6 +472,7 @@ $num: 20;
     }
   }
 }
+*/
 
 .slide-fade-enter-active {
   transition: all 1s ease;
